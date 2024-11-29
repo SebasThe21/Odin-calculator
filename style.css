@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(87, 87, 68);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgb(209, 202, 202);
+    display: flex;
+    flex-direction: column;
+    border:5px solid black;
+    height: 300px;
+    width: 300px;
+}
+.display{
+    height: 20%;
+}
+input{
+    width: 99%;
+    height: 25%;
+    font-size: 30px;
+    
+}
+.buttonsContainer{
+    display: flex;
+    flex: 1 1 30%;
+}
+.buttonsCalc{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+}
+
+.btnfunction,
+.numberbtn,
+.opbtn{
+    padding: 1px;
+    font-size: 18px;
+    flex: 1 1 30%;
+    cursor: pointer;
+    border: 1px solid grey;
+    font-weight: bold;
+    color: rgb(66, 64, 64);
+    
+}
+.btnac{ 
+    color: rgb(243, 160, 36);
+}
+.opbtn{
+    background-color: rgb(218, 150, 5);
+    color: black;
+}
+.buttonOpera{
+    display: flex;
+    flex-direction: column;
+    flex:1 1 30%;
+}

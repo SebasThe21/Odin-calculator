@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body>
+
+    <div class="container">
+         
+            <input  readonly class="ipdisplay">
+         
+
+        <div class="buttonsContainer">
+            <div class="buttonsCalc">
+                <button onclick="clearDisplay()" class="btnfunction btnac"> AC</button>
+                <button class="btnfunction">+/-</button>
+                <button class="btnfunction">%</button>
+                <button class="numberbtn" onclick="pressNumber(7)">7</button>
+                <button class="numberbtn" onclick="pressNumber(8)">8</button>
+                <button class="numberbtn" onclick="pressNumber(9)">9</button>
+                <button class="numberbtn" onclick="pressNumber(4)">4</button>
+                <button class="numberbtn" onclick="pressNumber(5)">5</button>
+                <button class="numberbtn" onclick="pressNumber(6)">6</button>
+                <button class="numberbtn" onclick="pressNumber(1)">1</button>
+                <button class="numberbtn" onclick="pressNumber(2)">2</button>
+                <button class="numberbtn" onclick="pressNumber(3)">3</button>
+                <button class="numberbtn" onclick="pressNumber('.')">.</button>
+                <button class="numberbtn" onclick="pressNumber(0)">0</button>
+                <button class="btnfunction" onclick="dltNumber()">DEL</button>
+                
+    
+             </div>
+             <div class="buttonOpera">
+                <button class="opbtn" onclick="pressOp('/')">/</button>
+                <button class="opbtn" onclick="pressOp('x')">X</button>
+                <button class="opbtn" onclick="pressOp('-')">-</button>
+                <button class="opbtn" onclick="pressOp('+')">+</button>
+                <button class="opbtn" onclick="operate('=')">=</button>
+             </div>
+        </div>
+    </div>
+    
+   
+    <script src="./script.js"></script>
+</body>
+</html>
